@@ -34,7 +34,8 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 					borderRadius: '4px',
 					border: '1px solid #aaa',
 					marginTop: '-4px',
-					marginBottom: '-2px'
+					marginBottom: '-2px',
+					background: 'white'
 				}} value={query} onChange={handleQuery} />
 				<hr/>
 
