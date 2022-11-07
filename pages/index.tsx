@@ -60,7 +60,7 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 						height: '6px',
 						background: 'linear-gradient(270deg, #5492EF 0%, rgba(84, 146, 239, 0) 100%), #0F3875'
 						}}/>
-					<div style={{marginBottom: '12px'}}>Statistics</div>
+					<div style={{marginBottom: '12px'}}>About</div>
 
 					<div style={{display: 'flex', justifyContent: 'space-between'}}>
 						<div style={{
@@ -77,40 +77,6 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 							fontWeight: 700,
 							color: '#B85900'
 							}}>{papeos.length}</div>
-					</div>
-
-					<div style={{display: 'flex', justifyContent: 'space-between'}}>
-						<div style={{
-							fontSize: '12px',
-							lineHeight: '22px',
-							fontStyle: 'normal',
-							fontWeight: 400,
-							color: '#536479'
-							}}>Publications</div>
-						<div style={{
-							fontSize: '12px',
-							lineHeight: '22px',
-							fontStyle: 'normal',
-							fontWeight: 700,
-							color: '#B85900'
-							}}>Unknown</div>
-					</div>
-
-					<div style={{display: 'flex', justifyContent: 'space-between'}}>
-						<div style={{
-							fontSize: '12px',
-							lineHeight: '22px',
-							fontStyle: 'normal',
-							fontWeight: 400,
-							color: '#536479'
-							}}>Acceptance Rate</div>
-						<div style={{
-							fontSize: '12px',
-							lineHeight: '22px',
-							fontStyle: 'normal',
-							fontWeight: 700,
-							color: '#B85900'
-							}}>Unknown</div>
 					</div>
 
 					<hr />
