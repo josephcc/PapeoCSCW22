@@ -2,7 +2,11 @@
 export default function Header() {
   return (
     <>
-			<h3 style={{marginBottom: '6px', marginTop: 0}}>ACM CSCW 2022</h3>
+			<h3 style={{marginBottom: '6px', marginTop: 0}}>
+						ACM CSCW 2022 <a href='https://paper-video-nav.apps.allenai.org/reader/10.1145.3512929' target='_blank' rel='noopener noreferrer' style={{textDecoration: 'underline'}}>
+				Papeos</a>
+				&nbsp;📄 📹 
+						</h3>
 				<div style={{display: 'flex', fontSize: '12px', alignItems: 'baseline'}}>
 					<span style={{display: 'flex', alignItems: 'baseline'}}>
 						<span style={{marginRight: '6px'}}>
