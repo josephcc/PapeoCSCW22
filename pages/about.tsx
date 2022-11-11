@@ -48,7 +48,7 @@ export default function About() {
 				<div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
 					<div>
 						<a href="https://taesookim.com/" target="_blank" rel="noreferrer" style={HeadStyle}>
-							<Image src="/heads/taesoo.jpeg" alt={'A photo of Tae Soo Kim'} width={110} height={110} style={{
+							<Image unoptimized src="/heads/taesoo.jpeg" alt={'A photo of Tae Soo Kim'} width={110} height={110} style={{
 								borderRadius: '65px'
 							}} />
 							Tae Soo Kim (KAIST)
@@ -56,7 +56,7 @@ export default function About() {
 					</div>
 					<div>
 						<a href="https://joe.cat/" target="_blank" rel="noreferrer" style={HeadStyle}>
-							<Image src="/heads/joseph.jpeg" alt={'A photo of Joseph Chee Chang'} width={110} height={110} style={{
+							<Image unoptimized src="/heads/joseph.jpeg" alt={'A photo of Joseph Chee Chang'} width={110} height={110} style={{
 								borderRadius: '65px'
 							}} />
 							Joseph Chee Chang (AI2)
@@ -64,7 +64,7 @@ export default function About() {
 					</div>
 					<div>
 						<a href="https://homes.cs.washington.edu/~axz/" target="_blank" rel="noreferrer" style={HeadStyle}>
-							<Image src="/heads/amy.png" alt={'A photo of Amy X. Zhang'} width={110} height={110} style={{
+							<Image unoptimized src="/heads/amy.png" alt={'A photo of Amy X. Zhang'} width={110} height={110} style={{
 								borderRadius: '65px'
 							}} />
 							Amy X. Zhang (UW & AI2)
@@ -72,7 +72,7 @@ export default function About() {
 					</div>
 					<div>
 						<a href="https://www.jonathanbragg.com/" target="_blank" rel="noreferrer" style={HeadStyle}>
-							<Image src="/heads/jonathan.jpeg" alt={'A photo of Jonathan Bragg'} width={110} height={110} style={{
+							<Image unoptimized src="/heads/jonathan.jpeg" alt={'A photo of Jonathan Bragg'} width={110} height={110} style={{
 								borderRadius: '65px'
 							}} />
 							Jonathan Bragg (AI2)
@@ -80,7 +80,7 @@ export default function About() {
 					</div>
 					<div>
 						<a href="https://www.linkedin.com/in/mlatzke/" target="_blank" rel="noreferrer" style={HeadStyle}>
-							<Image src="/heads/matt.jpeg" alt={'A photo of Matt Latzke'} width={110} height={110} style={{
+							<Image unoptimized src="/heads/matt.jpeg" alt={'A photo of Matt Latzke'} width={110} height={110} style={{
 								borderRadius: '65px'
 							}} />
 							Matt Latzke (AI2)
