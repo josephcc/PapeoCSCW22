@@ -18,7 +18,7 @@ export default function About() {
 				<title>Papeo Project - About</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
-			<div style={{ maxWidth: '690px', width: '100%', color: '#555', padding: '0 20px' }}>
+			<div style={{ maxWidth: '690px', width: '100%', color: '#555', padding: '0 20px', lineHeight: 1.5 }}>
 				<h1>Welcome to Project Papeo 📄 📹</h1>
 				<p>
 					Attending CSCW 2022? &nbsp;
