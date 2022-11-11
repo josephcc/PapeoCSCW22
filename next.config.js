@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   webpack: (config) => {
     config.resolve.fallback = {
       fs: false,
