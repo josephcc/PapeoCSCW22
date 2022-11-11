@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-
 import {useState, useCallback, useEffect} from 'react'
 import Papeo from './papeo'
 import Header from './header'
@@ -26,7 +24,7 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 
 
 	return (
-		<div style={{ width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', backgroundColor: '#f5f6f7', color: '#2e3743', padding: '60px 0px' }}>
+		<div style={{width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', backgroundColor: '#f5f6f7', color: '#2e3743', padding: '60px 0px'}}>
       <Head>
         <title>Papeo Project @ CSCW 2022</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -62,7 +60,7 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 						height: '6px',
 						background: 'linear-gradient(270deg, #5492EF 0%, rgba(84, 146, 239, 0) 100%), #0F3875'
 						}}/>
-					<div style={{marginBottom: '12px'}}>Project Papeo</div>
+					<div style={{marginBottom: '12px'}}>About</div>
 
 					<div style={{display: 'flex', justifyContent: 'space-between'}}>
 						<div style={{
@@ -109,7 +107,7 @@ export default function Home({papeos}: {papeos: PapeoType[]}) {
 							display: 'flex',
 							justifyContent: 'space-between'
 						}}>
-						<Link href='/about' target='_blank' rel='noopener noreferrer'>About This Project</Link>
+						<a href='https://paper-video-nav.apps.allenai.org/reader/10.1145.3512929' target='_blank' rel='noopener noreferrer'>About This Project</a>
 						<div style={{width: '123px', height: '22px', transform: 'scale(0.6)', transformOrigin: 'top left'}}>
 						<a href='https://www.semanticscholar.org/research/research-team' target='_blank' rel='noopener noreferrer'>
 						<svg width="202" height="36" viewBox="0 0 202 36" fill="none" xmlns="http://www.w3.org/2000/svg">
