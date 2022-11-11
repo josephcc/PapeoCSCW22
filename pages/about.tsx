@@ -18,13 +18,14 @@ export default function About() {
 				<title>Papeo Project - About</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
-			<div style={{ maxWidth: '650px', minWidth: '650px', width: '650px', color: '#555' }}>
+			<div style={{ maxWidth: '690px', width: '100%', color: '#555', padding: '0 20px' }}>
 				<h1>Welcome to Project Papeo 📄 📹</h1>
 				<p>
 					Attending CSCW 2022? &nbsp;
 					<Link href="/" target="_blank" rel="noreferrer" style={{color: 'royalblue'}}>
 						Try Papeo Here!
 					</Link>
+					<span style={{ color: '#888' }}>&nbsp;(mobile is not support yet)</span>
 				</p>
 				<p>
 					Papeo is a system that allow authors to combine their research papers📄  with their conference presentation videos📹 into &ldquo;Papeos&rdquo; to provide a rich and interactive reading experience.
@@ -45,7 +46,7 @@ export default function About() {
 					This project is the result of an internship project in the Semantic Scholar Research at the Allen Institute for AI (AI2).
 					Our team is composed of...
 				</p>
-				<div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+				<div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap'}}>
 					<div>
 						<a href="https://taesookim.com/" target="_blank" rel="noreferrer" style={HeadStyle}>
 							<Image unoptimized src="/heads/taesoo.jpeg" alt={'A photo of Tae Soo Kim'} width={110} height={110} style={{
