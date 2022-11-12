@@ -7,7 +7,7 @@ const HeadStyle: CSSProperties = {
 	display: 'flex',
 	flexDirection: 'column',
 	alignItems: 'center',
-	fontSize: '12px',
+	fontSize: '10px',
 	color: 'royalblue'
 }
 
@@ -21,11 +21,17 @@ export default function About() {
 			<div style={{ maxWidth: '690px', width: '100%', color: '#555', padding: '0 20px', lineHeight: 1.5 }}>
 				<h1>Welcome to Project Papeo 📄 📹</h1>
 				<p>
-					Attending CSCW 2022? &nbsp;
+					Are you attending CSCW 2022? &nbsp;
 					<Link href="/" target="_blank" rel="noreferrer" style={{color: 'royalblue'}}>
-						Try Papeo Here!
+						Try Author-Created Papeos Here!
 					</Link>
-					<span style={{ color: '#888' }}>&nbsp;(mobile is not support yet)</span>
+					<br/>
+						Are you a CSCW 2022 author? &nbsp;
+					<Link href="https://docs.google.com/document/d/1ZuRS0CREp_ApnzEWhxKSdiyzp0B7zBF3Ip05l5Nt5Dc/" target="_blank" rel="noreferrer" style={{color: 'royalblue'}}>
+						Create a Papeo for Your Paper!
+					</Link>
+					<br/>
+					<span style={{ color: '#999' }}>(mobile not support yet)</span>
 				</p>
 				<p>
 					Papeo is a system that allow authors to combine their research papers📄  with their conference presentation videos📹 into &ldquo;Papeos&rdquo; to provide a rich and interactive reading experience.
@@ -35,12 +41,7 @@ export default function About() {
 					We are currently trying out Papeo with CSCW 2022 authors and attendees to see if we can help provide scholars a new way to stay engaged during virtual conferences.
 				</p>
 				<p>
-					You can play with &ldquo;Papeos&rdquo; other CSCW 2022 authors have already made and create yours here: &nbsp;
-
-					<Link href="/" target="_blank" rel="noreferrer" style={{color: 'royalblue'}}>
-						https://papeo.app
-					</Link>
-
+					You can play with &ldquo;Papeos&rdquo; other CSCW 2022 authors have already made or create your own using the links above!
 				</p>
 				<p>
 					This project is the result of an internship project in the Semantic Scholar Research at the Allen Institute for AI (AI2).
@@ -89,7 +90,7 @@ export default function About() {
 					</div>
 				</div>
 				<p>
-					This deployment has been approved by the University of Washington IRB. While we do keep track of how people interact with the interface, we do NOT collect any personal identifiable information.
+					This deployment has been approved by the University of Washington IRB. While we do keep track of how people interact with the interface, we DO NOT collect any personal identifiable information.
 				</p>
 				<p>
 
