@@ -13,7 +13,7 @@ const HeadStyle: CSSProperties = {
 
 export default function About() {
 	return (
-		<div style={{ width: '100%', height: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#f5f6f7', color: '#2e3743', padding: '60px 0px' }}>
+		<div style={{ width: '100%', height: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#f5f6f7', color: '#2e3743', paddingTop: '40px' }}>
 			<Head>
 				<title>Papeo Project - About</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -97,6 +97,9 @@ export default function About() {
 					If you have any questions or feedback regarding the interface, please feel free to send us an email at taesoo.kim _AT_ kaist.ac.kr 😀
 				</p>
 			</div>
+			<footer style={{ marginTop: '60px', padding: '6px 0', fontSize: '11px', color: 'gray' }}>
+				<span><a href="https://allenai.org">© The Allen Institute for Artificial Intelligence</a> - All Rights Reserved | <a href="https://allenai.org/privacy-policy">Privacy Policy</a> | <a href="https://allenai.org/terms">Terms of Use</a> | <a href="https://allenai.org/business-code-of-conduct">Business Code of Conduct</a></span>
+			</footer>
 		</div>
 	)
 }
